@@ -1,0 +1,11 @@
+{
+  "getAllEmployees": "select * from employees",
+  "createEmployee": "INSERT into employees (fname,lname,address,qualification,contact_num,dept) VALUES (?,?,?,?,?,?)",
+  "updateEmployee": "UPDATE employees SET fname=?,lname=?,address=?,qualification=?,contact_num=?,dept=? WHERE id = ?",
+  "deleteEmployee": "DELETE FROM employees WHERE id = ?",
+  "getEmpById": "select * from employees where id = ?",
+  "createDepartment": "INSERT into departments (department) VALUES(?)",
+  "getDepartments": "select * from departments",
+  "updateDept": "UPDATE departments set department=? where id=?",
+  "deleteDept": "DELETE FROM departments WHERE id = ?"
+}
